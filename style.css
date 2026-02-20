@@ -7,10 +7,10 @@
 
 :root{
   --body: DimGrey;
-  --text: rgb(230, 230, 230);
+  --text: rgb(235, 235, 235);
   --header: WhiteSmoke;
   --bg: rgb(30, 30, 30);
-  --bg-darker: rgb(0, 0, 0);
+  --bg-darker: rgb(67, 67, 67);
   --border: rgb(200, 200, 200);
 }
 
@@ -81,12 +81,12 @@ nav ul li a:hover{
 }
 
 button{
-  background: rgb(240, 240, 240);
+  background: rgb(105, 105, 105);
   border: 1px solid var(--border);
   border-radius: .5rem;
   padding: .8rem;
   font-size: 1rem;
-  cursor: pointer;
+  cursor: progress;
 }
 
 button:hover{
