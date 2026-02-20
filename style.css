@@ -86,7 +86,7 @@ button{
   border-radius: .5rem;
   padding: .8rem;
   font-size: 1rem;
-  cursor:progress;}
+  cursor:progress;
 }
 
  button:hover{
