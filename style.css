@@ -36,7 +36,7 @@ h1[id], h2[id], h3[id]{
 }
 
 a{
-  color: rgb(60, 60, 255);
+  color: rgb(61, 140, 255);
   text-decoration: none;
 }
 
@@ -86,7 +86,7 @@ button{
   border-radius: .5rem;
   padding: .8rem;
   font-size: 1rem;
-  cursor: progress;
+  cursor:progress;
 }
 
 button:hover{
