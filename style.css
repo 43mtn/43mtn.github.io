@@ -64,6 +64,7 @@ nav ul li a{
   color: white;
   text-decoration: none;
   padding: 1rem;
+  cursor:wait;
 }
 
 nav ul li a:hover{
