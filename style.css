@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root{
-  --body: black;
+  --body: DimGray;
   --text: rgb(50, 50, 50);
   --header: black;
   --bg: rgb(240, 240, 240);
@@ -73,7 +73,7 @@ nav ul li a:hover{
 .main{
   margin-top: 1rem;
   background: var(--bg);
-  width: 50rem;
+  width: 70rem;
   padding: 1rem;
   border-radius: 1rem;
   border: 1px solid var(--border);
