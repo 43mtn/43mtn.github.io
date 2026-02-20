@@ -1,8 +1,8 @@
 # h1
-h## 2
+## 2
 ### h3
 #### h4
-#####h5
+##### h5
 ###### h6
 2. Emphasis
 Emphasis, aka italics, with asterisks or underscores. {*Text*}
