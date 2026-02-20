@@ -7,11 +7,11 @@
 
 :root{
   --body: DimGrey;
-  --text: rgb(50, 50, 50);
-  --header: black;
-  --bg: rgb(240, 240, 240);
-  --bg-darker: rgb(220, 220, 220);
-  --border: rgb(0, 0, 0);
+  --text: rgb(230, 230, 230);
+  --header: WhiteSmoke;
+  --bg: rgb(30, 30, 30);
+  --bg-darker: rgb(0, 0, 0);
+  --border: rgb(200, 200, 200);
 }
 
 html{
