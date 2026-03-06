@@ -3,31 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lernstoff</title>
+  <title>Compendium</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./img/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"> 
 </head>
 <body>
   <nav>
     <ul>
-      <li><a href="./">Start</a></li>
-      <li><a href="./french">Französisch</a></li>
+      <li><a class="nav-active">Start</a></li>
+      <li><a href="./french">Französisch</a>
+      </li>
       <li><a href="./info">Info</a></li>
     </ul>
   </nav>
 
-  <div class="main">
-    <h1>Was möchtest du lernen?</h1><br>
-    <a href="./french"><button>Französisch 🇫🇷</button></a>
+  <div class="content-column">
+    <div class="main">
+      <h1>Compendium</h1><h2>Was möchtest du lernen?</h2><br>
+      <a href="./french"><button>Französisch</button></a>
+    </div>
+    <div class="main">
+      <h2>Hinweis</h2>
+      <p>Diese Website ist ein Hobbyprojekt, das wir nur in unserer Freizeit betreiben. Manchmal könnte es also etwas länger dauern, bis wir neue Vokabeln oder Funktionen ergänzen.</p>
+    </div>
   </div>
 
-<div class="main">
- <h1>Über diese Seite</h1>
-  <p>Diese Website wurde von <a href="https://github.com/43mtn" target="_blank">Benedikt (43mtn)</a> und <a href="https://github.com/krischollekt-cmd" target="_blank">Roland (krischollekt-cmd)</a> entwickelt.</p>
-</div>
-  
-  <div class="main">
-    <h2>Hinweis</h2>
-    <p>Diese Website ist ein Hobbyprojekt, das wir nur in unserer Freizeit betreiben. Manchmal könnte es also etwas länger dauern, bis wir neue Vokabeln ergänzen. Außerdem ist das eine sehr frühe Version der Website, also sind Fehler zu erwarten.</p>
-  </div>
+<footer>Compendium wird von <a href="https://github.com/43mtn" target="_blank">Benedikt (43mtn)</a> und <a href="https://github.com/krischollekt-cmd" target="_blank">Roland (krischollekt-cmd)</a> entwickelt. <br>Die aktuelle Version ist <a href="https://github.com/43mtn/Anti-Compendium/releases" target="_blank">v1.1.0</a>.</footer>
 </body>
 </html>
